@@ -1,66 +1,126 @@
-# 🧬 RNA Sequence Analysis Toolkit
+# 🧠 From Python to Pixels (Almost!): Your First Neural Network with TensorFlow & Keras
 
-This repository contains a Python-based Jupyter Notebook designed for analyzing RNA sequences. The core functionalities include secondary structure prediction, GC content analysis, base pair visualization, and additional utilities for understanding the structure and behavior of RNA sequences.
+Welcome to an interactive, beginner-friendly walkthrough on how to build your very first neural network in Python using TensorFlow and Keras — no prior deep learning experience needed!
 
-## 📓 Notebook Overview
+---
 
-The main notebook is:
+## 📘 Overview
 
-- **RNA_python_2025.ipynb**
+This notebook is designed as a **1-hour crash course and hands-on lab** for beginners in machine learning. It covers foundational Python programming, key data science libraries (NumPy, Pandas), and culminates in building a **simple feedforward neural network** to classify the famous **Iris flower dataset**.
 
-It walks through:
-- Reading and cleaning RNA sequences
-- Predicting RNA secondary structure using standard libraries
-- Visualizing base pairing and structural motifs
-- Calculating GC content and other basic metrics
+You'll learn how to go from basic Python code all the way to a trained model making predictions, with plenty of real code and comments along the way.
 
-## 🧪 Features
+---
 
-- 🔍 RNA sequence parsing and validation
-- 📐 Secondary structure prediction using dot-bracket notation
-- 📊 Visual analysis of base pairing and GC content
-- 🧠 Modular code cells for easy reuse or expansion
+## 👨‍🏫 Author & Institution
 
-## 🚀 Getting Started
+- **Author**: Décio Alves  
+- **Institution**: Madeira University  
+- **Year**: 2025  
+- **Contact**: decio.alves@staff.uma.pt  
 
-### Prerequisites
+---
 
-Make sure you have the following installed:
+## 🧭 What You'll Learn
 
-- Python 3.8+
-- Jupyter Notebook or Jupyter Lab
-- Required Python packages (install with pip):
+| Time | Topic |
+|------|-------|
+| 5 min | Why Python for Neural Networks |
+| 15 min | Python Crash Course (Variables, Lists, Dicts, Functions) |
+| 10 min | Data Science Libraries: NumPy & Pandas |
+| 5 min | Intro to TensorFlow & Keras |
+| 20 min | **Build Your First Neural Network (Iris Classifier)** |
+| 5 min | Q&A / Next Steps |
 
-```bash
-pip install matplotlib numpy pandas biopython
-```
+---
 
-Optional (for advanced structure prediction):
+## 🔧 Tech Stack
 
-```bash
-pip install viennarna
-```
+- **Python 3**
+- **NumPy**
+- **Pandas**
+- **Matplotlib**
+- **Scikit-learn**
+- **TensorFlow / Keras**
 
-### Run the Notebook
+---
 
-```bash
-jupyter notebook RNA_python_2025.ipynb
-```
+## 🧪 Project: Iris Flower Classifier
 
-## 📁 Project Structure
+A multi-class classifier that predicts the species of an Iris flower based on 4 measurements:
+- Sepal Length
+- Sepal Width
+- Petal Length
+- Petal Width
 
-```
-📦 RNA-Sequence-Toolkit
- ┣ 📜 RNA_python_2025.ipynb
- ┗ 📄 README.md
-```
+Model architecture:
+- Input layer: 4 features
+- Two hidden layers: 8 neurons each (ReLU activation)
+- Output layer: 3 neurons (Softmax activation)
 
-## ✍️ Author
+---
 
-Created by [Your Name] in 2025.
+## 🚀 How to Run
 
-Feel free to fork, modify, or contribute!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/python-to-pixels-nn.git
+   cd python-to-pixels-nn
+   ```
 
-## 📃 License
+2. Install dependencies (preferably in a virtual environment):
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-This project is open-source and available under the MIT License.
+3. Open the notebook:
+   ```bash
+   jupyter notebook
+   ```
+   or open with Google Colab.
+
+---
+
+## 🖼️ Example Output
+
+- ✅ ~97% test accuracy on the Iris dataset
+- 📈 Visualized training/validation accuracy and loss
+- 📊 Confusion matrix and classification report
+
+---
+
+## 🛠️ Next Steps
+
+Explore further by:
+- Experimenting with deeper networks or different architectures
+- Trying out new datasets (e.g. MNIST)
+- Learning about CNNs, RNNs, and other advanced models
+- Implementing regularization and dropout to avoid overfitting
+- Saving and loading your trained models
+
+---
+
+## 📂 Files
+
+| File | Description |
+|------|-------------|
+| `python_to_pixels_nn.ipynb` | The full interactive notebook |
+| `README.md` | This file |
+| `requirements.txt` | (Optional) List of dependencies |
+
+---
+
+## ❤️ Acknowledgments
+
+Thanks to Madeira University and the broader open-source community for supporting accessible AI education.
+
+---
+
+## 📬 Contact
+
+Feel free to reach out with suggestions, questions, or collaboration ideas!
+
+**Décio Alves**  
+📧 [decio.alves@staff.uma.pt](mailto:decio.alves@staff.uma.pt)
+
+---
