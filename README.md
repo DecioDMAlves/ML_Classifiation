@@ -106,13 +106,6 @@ Explore further by:
 |------|-------------|
 | `python_to_pixels_nn.ipynb` | The full interactive notebook |
 | `README.md` | This file |
-| `requirements.txt` | (Optional) List of dependencies |
-
----
-
-## ❤️ Acknowledgments
-
-Thanks to Madeira University and the broader open-source community for supporting accessible AI education.
 
 ---
 
